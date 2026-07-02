@@ -4,22 +4,22 @@ cask "arca" do
 
   on_macos do
     on_intel do
-      sha256 "4c9d97edcd0a6b49dbb0e10ab52fe1b4c97a05be18f2b946837aa8be15e58727"
+      sha256 "5715bed6a19d11bb278113f9ed133f118e23bb3c812ea964c21acee57f2e0bc9"
       url "https://github.com/arenzana/arca/releases/download/v#{version}/arca_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "0ebdc58441142c0468a3a606d065d80ece930398392f6cd37d4e3c516a6df4a0"
+      sha256 "282c2e51a3337f776a029d0996f6023a3e478d6c5205533fe51b13723c97301c"
       url "https://github.com/arenzana/arca/releases/download/v#{version}/arca_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "b38a3fc01792667f16a51c83929a192ae34c81d5600c25d3ea460714219c1ea7"
+      sha256 "c941955507ac7a2281026bd16d800e665e73c31cf6593633a3040f12ee6966e7"
       url "https://github.com/arenzana/arca/releases/download/v#{version}/arca_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "e9a5912fbde98492580546f0623ecc9eefd9f7502f1b326d60c98ed56dda31cf"
+      sha256 "509fd3653491bbcbefca77fde3928e092d366ff733829b75282028390b192c20"
       url "https://github.com/arenzana/arca/releases/download/v#{version}/arca_#{version}_linux_arm64.tar.gz"
     end
   end
