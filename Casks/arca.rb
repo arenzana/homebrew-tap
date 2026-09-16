@@ -31,6 +31,9 @@ cask "arca" do
     skip "Auto-generated on release."
   end
 
+  # Hand-added when arca was archived. A future GoReleaser release regenerates this file and drops it.
+  deprecate! date: "2026-09-16", because: :unmaintained
+
   binary "arca"
 
   postflight do
