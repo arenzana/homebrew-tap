@@ -2,25 +2,25 @@
 cask "ft" do
   binary "freshtimes", target: "ft"
 
-  version "1.0.5"
+  version "1.0.6"
 
   on_macos do
     on_arm do
-      sha256 "b57e270cad6ad9e8aa9a4408bf689a1666f8c18317cc2fa1bbe5b4611efc1e2f"
+      sha256 "a8dd54ba34fbcad8b9e591cec6911951255e7e517e187c01acc3c09b40c7a6fd"
       url "https://github.com/arenzana/freshtimes-cli/releases/download/v#{version}/freshtimes_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "39517c2461b21db4d16ac2a88c3d69e73ab019f386b2e07736e830277b9dd6ee"
+      sha256 "d672a08b5817af2ad2d7ac990eeb21140638d3fea4197ad97da4b6163cccdd9c"
       url "https://github.com/arenzana/freshtimes-cli/releases/download/v#{version}/freshtimes_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "c2c68f47933e361b1dc6a67f98880ec7fb21ba2e4a923088e4700cde5d128cac"
+      sha256 "52bc7dcf09b0889d9c7e0b07f06f0c14a8e4ab28cdf8cea2ea15fcbe44dac577"
       url "https://github.com/arenzana/freshtimes-cli/releases/download/v#{version}/freshtimes_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "e56819a5bca5f113a6658d6e250f226eab5f6666b671a474b9737aad8377c697"
+      sha256 "bc73c9b7217f505b3a345392724ff9580dbd5138a5658e1ab08f9d6347077519"
       url "https://github.com/arenzana/freshtimes-cli/releases/download/v#{version}/freshtimes_#{version}_linux_amd64.tar.gz"
     end
   end
